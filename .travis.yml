@@ -5,8 +5,7 @@ cache: yarn
 deploy:
   on:
     branch: master
-  script: yarn install
-  provider: npm
+  provider: yarn
   email:
     secure: ZrEVhevn9D3QAXc+V4BxpEkPLR4tUy9ntnZmZGZHe8ZyGnO3o27lOCqVZU5l6bYKu6piGEZDxqPyYELgHZhKHwPg6oIcu/pkfWPsIGySD0Rq+Zt2ARmckej8S9/fMHnn+T5ivibwvbfUhKvZz6moyIpq3OQlVVkL+o1qXIzzrkDSZsmxZW/u5QvgPkJgwWr1H6eNDVnCAwPU6OLS5jylLaTb834y4rrDPuOLBG5yCtcczl+nTU3yud7cd/W5pQVmRN8d2klbvE0Y6sbC3SL+EVIRe8xLl5adtawtP5n90Xl1GZAFSW/eW3GN5jXwmJ8Et/0pmPB0ED3yjNX8bsOH7Fe7noT52Mbv4O4/FG1BZlPQbhbkfIFD/WXWXqPKo8WNdx2dF+RQNGpYCR4NIpy+N1xl1wMJfvPqR9naEougo8r87fwgAwERLJo6grUd7xJvQ5oaEvs6JEjkL3+HVmVGfrv0L8S665gkG6L393VVAQ7rehqxBzuAmn7OukT4zKdWeI69xQFUeLGlYKsu+VHIYKtEzyqG0zbuA0RZ0Klij4CkWDs5IqcV8StFZooL3rmfHLetUGDTjuXp9LO2NXKnPU5ieLBNVcxrTMzKLrHBybagMwRu4wXLu2v53upcPi75UQslYo5EHSJntpqKynEwG9s2woKexpq278dfY4EaEzA=
   api_key:
